@@ -21,23 +21,28 @@
 
 ## Code Example
 
-    ``` function multiply(a, b){
+``` 
+function multiply(a, b){
     return a * b
-    }
-    ```
+}
 
-## Experience 
+```
 
-    ****
+****
+
+## Experience
+* *No experience*
+
+****
+
 ## Education
+* *No education*
 
-    *****
+****
 
 ## Languages
-
 * *English - Intermediate*
 * *Russian - Advanced*
-        
         
 
 
