@@ -32,8 +32,8 @@
     *****
 
 ## Languages
-    *English - Intermediate
-    *Russian - Advanced 
+* English - Intermediate
+* Russian - Advanced 
         
         
 
