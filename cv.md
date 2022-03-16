@@ -1,4 +1,4 @@
- # Chyngyz Mirzamatov
+## Chyngyz Mirzamatov
 
  ****
 
@@ -27,13 +27,16 @@
     ```
 
 ## Experience 
+
     ****
 ## Education
+
     *****
 
 ## Languages
-* English - Intermediate
-* Russian - Advanced 
+
+* *English - Intermediate*
+* *Russian - Advanced*
         
         
 
