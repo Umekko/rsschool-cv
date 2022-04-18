@@ -1,0 +1,372 @@
+.header {
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.header-title__h1 {
+  font-size: var(--fz-32);
+  color: var(--color-primary);
+  line-height: var(--lh-110);
+  padding-bottom: 10px;
+  font-family: Arial;
+}
+
+.header-title__p {
+  font-size: var(--fz-13);
+  line-height: var(--lh-100);
+  font-family: Arial;
+  color: var(--color-light-xl);
+}
+
+.header-nav__ul {
+  display: flex;
+  list-style: none;
+}
+
+.header-nav__item {
+  font-size: var(--fz-15);
+  line-height: var(--lh-160);
+  margin-left: 35px;
+  color: var(--color-dark-s);
+  display: block;
+  height: 27px;
+  font-family: Arial;
+  text-align: center;
+  justify-content: center;
+}
+
+.header-nav__item:hover,
+.header-nav__item--active {
+  border-bottom: 3px solid var(--color-primary);
+}
+
+.first-section {
+  background: url("/Shelter/assets/images/start-screen-background.png");
+  background-repeat: no-repeat;
+  padding-top: 180px;
+  background-position: center;
+  background-size: 100%;
+}
+
+.first-section__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.first-section__content {
+  max-width: 460px;
+}
+
+.first-section__content--h2 {
+  line-height: var(--lh-130);
+  font-size: var(--fz-44);
+  color: var(--color-light-xl);
+  max-width: 310px;
+}
+
+.first-section__content--p {
+  line-height: var(--lh-160);
+  font-size: var(--fz-15);
+  color: var(--color-dark-s);
+  margin: 42px 0;
+  font-family: Arial;
+}
+
+.first-section__content--button {
+  width: 207px;
+  height: 52px;
+  border-radius: 26px;
+  border: none;
+  background: #f1cdb3;
+  transition: all 0.4s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.first-section__content--button  > a {
+  font-size: var(--fz-17);
+  line-height: var(--lh-130);
+  color: var(--color-dark-3xl);
+  letter-spacing: 0.06em;
+}
+
+.first-section__content--button:hover {
+  box-shadow: 4px 4px 50px 0px var(--color-primary);
+}
+.second-section {
+  background-color: var(--color-light-xl);
+}
+
+.second-section__content {
+  display: flex;
+  margin: 80px 175px 100px;
+  justify-content: space-between;
+}
+
+.second-section__content--about {
+  max-width: 430px;
+}
+
+.second-section__about--h2 {
+  font-size: var(--fz-35);
+  line-height: var(--lh-130);
+  letter-spacing: 0.06em;
+  color: var(--color-dark-l);
+  max-width: 370px;
+}
+
+.second-section__about--p {
+  color: var(--color-dark-xl);
+  font-size: var(--fz-15);
+  line-height: var(--lh-160);
+  margin-top: 25px;
+}
+.third-section {
+  background-color: var(--color-light-l);
+}
+.third-section__container {
+  padding: 80px 0 100px;
+}
+
+.third-section__h2 {
+  color: var(--color-dark-l);
+  font-size: var(--fz-35);
+  line-height: var(--lh--130);
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  max-width: 400px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+
+.third-section__content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.third-section__content--cards {
+  background-color: var(--color-light-s);
+  text-align: center;
+  border-radius: 9px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.third-section__content--cards:hover {
+  background: var(--color-light-l);
+}
+.third-section__content--cards:hover .third-section__content-button {
+  background: var(--color-primary);
+}
+
+.third-section__content--arrow {
+  border-radius: 50%;
+  border: 3px solid var(--color-primary);
+  width: 52px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s;
+}
+.third-section__content--arrow:hover {
+  background: var(--color-primary);
+}
+
+.third-section__content--pets-names {
+  font-size: var(--fz-20);
+  line-height: var(--lh-23);
+  color: var(--color-dark-l);
+  margin-top: 30px;
+}
+
+.third-section__content-button {
+  margin: 30px 41px;
+  border-radius: 26px;
+  border: 3px solid var(--color-primary);
+  width: 187px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.third-section__content-button > p {
+  font-size: var(--fz-17);
+  line-height: var(--lh-130);
+  letter-spacing: 0.06em;
+  color: var(--color-dark-3xl);
+}
+
+.third-section__container--button {
+  border: 3px solid var(--color-primary);
+  width: 261px;
+  height: 52px;
+  border-radius: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 60px;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.third-section__container--button:hover {
+  background: var(--color-primary);
+}
+
+.third-section__container--button > a {
+  font-size: var(--fz-17);
+  line-height: var(--lh-130);
+  letter-spacing: 0.06em;
+  color: var(--color-dark-3xl);
+}
+
+.fourth-section__container {
+  padding: 80px 0 100px;
+}
+
+.fourth-section__container__h2 {
+  color: var(--color-dark-l);
+  font-size: var(--fz-35);
+  line-height: var(--lh-45);
+  max-width: 310px;
+  letter-spacing: 0.06em;
+  text-align: center;
+  margin: 0 auto 60px;
+}
+
+.fourth-section__content--first-row {
+  display: grid;
+  max-width: 1026px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  justify-items: center;
+  margin: 0 auto;
+}
+
+.first-row__p {
+  margin-top: 30px;
+  color: var(--color-dark-l);
+  font-size: var(--fz-20);
+  line-height: var(--lh-115);
+  letter-spacing: 0.06em;
+}
+
+.fourth-section__content--second-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  max-width: 828px;
+  justify-content: center;
+  justify-items: center;
+  margin: 55px auto auto;
+}
+
+.fives-section {
+  background-color: var(--color-light-l);
+}
+.fives-section__content {
+  padding: 80px 0 100px;
+  display: flex;
+  max-width: 915px;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.fives-section__donation--h2 {
+  color: var(--color-dark-l);
+  font-size: var(--fz-35);
+  line-height: var(--lh-130);
+  max-width: 300px;
+}
+
+.fives-section__donation--bank-name {
+  line-height: var(--lh-110);
+  color: var(--color-dark-l);
+  font-size: var(--fz-15px);
+  margin-top: 20px;
+}
+
+.fives-section__donation-number {
+  color: var(--color-dark-l);
+  line-height: var(--lh-115);
+  font-size: var(--fz-20);
+}
+.fives-section__donation-credit-card {
+  display: flex;
+  width: 349px;
+  height: 43px;
+  border-radius: 9px;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--color-primary);
+  transition: 0.3s;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.fives-section__donation-credit-card:hover {
+  box-shadow: 4px 4px 50px 0px var(--color-primary);
+}
+
+.fives-section__donation--info {
+  color: var(--color-dark-m);
+  font-size: var(--fz-12);
+  line-height: var(--lh-150);
+  max-width: 380px;
+  margin-top: 20px;
+}
+
+footer {
+  background: url("/Shelter/assets/images/footer-gradient-background.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+}
+.footer__content--contacts {
+  margin-top: 40px;
+  display: flex;
+}
+
+.footer__content--h2 {
+  color: var(--color-light-xl);
+  font-size: var(--fz-35);
+  line-height: var(--lh-130);
+  max-width: 279px;
+}
+
+.footer__conent--info {
+  color: var(--color-primary);
+  font-size: var(--fz-20);
+  line-height: var(--lh-115);
+  margin-left: 20px;
+}
+
+.footer__content--location {
+  margin-top: 32px;
+  display: flex;
+  max-width: 302px;
+}
+
+.footer-content__footer-puppy {
+  max-height: 310px;
+}
